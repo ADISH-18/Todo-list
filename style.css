@@ -1,0 +1,67 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.container {
+    margin: 100px auto;
+    width: 30%;
+    text-align: center;
+    border: 0.5px solid grey;
+    border-radius: 10px 10px 10px 10px;
+    background-image:url("assets/img1.jpg") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container h1{
+    color:white;
+}
+
+dl {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.task{
+    color:rgb(255, 0, 0);
+    padding: 10px;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.task:hover{
+    background-color: #eeeeee60;
+    cursor: pointer;
+}
+.checked{
+    text-decoration: line-through;
+    color: #2bff00;
+}
+
+.task.checked::before{
+    content: '\2713';
+    margin-right: 10px;
+    color: #0f0;
+}
+
+dt{
+    font-weight: bold;
+}
+
+.task{
+    width:95%;
+    height:auto;
+    border:0;
+    border-radius:8px 8px 8px 8px;
+}
+
+.task input[type="checkbox"] {
+    margin: 0 10px;
+}
+form input{
+    border-radius: 10px;
+}
